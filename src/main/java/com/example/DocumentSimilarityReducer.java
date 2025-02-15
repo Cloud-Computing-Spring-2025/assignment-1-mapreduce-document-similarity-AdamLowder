@@ -1,6 +1,5 @@
 package com.example;
 
-import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
@@ -21,7 +20,7 @@ public class DocumentSimilarityReducer extends Reducer<Text, Text, Text, Text> {
         HashSet<String> union = new HashSet<>();
         Iterator<Text> wordIterator = values.iterator();
         //iterate over the words for the document pair
-        while (wordIterator.hasNext()){
+        while(wordIterator.hasNext()){
             String word = wordIterator.next().toString();
             intersection.add(word);
             union.add(word);
