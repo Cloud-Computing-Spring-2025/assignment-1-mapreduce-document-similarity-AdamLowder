@@ -7,6 +7,8 @@ Instructions - If the assignment worked as I had planned ou would follow the com
 
 Challenges faced - I did the docker compose step and it seemed to load everything fine, but when i got to the next step it kept on telling me that there was no hadoop master. I also tried to just skip hat and see if the maven step would work but i sarted getting errors and with how busy ive been this week it was too late today to get ta help i suppose. I did finally research the full functionality of the hashset and iterators with the help of online guides such as geeksforgeeks and asking gpt to clarify how some steps should work.
 
+UPDATE: Spoke with the TA and was able o get the run and HDFS functions to work but my code is still a little bit off since we changed a se of arguments in the main function. It prints out in the correct format but we believe it was soemthing that would need a slight change in the mapper and reducer.
+
 
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=18028313&assignment_repo_type=AssignmentRepo)
 ### **📌 Document Similarity Using Hadoop MapReduce**  
